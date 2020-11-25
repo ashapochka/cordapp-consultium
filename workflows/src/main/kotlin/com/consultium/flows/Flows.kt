@@ -1,4 +1,4 @@
-package com.template.flows
+package com.consultium.flows
 
 import co.paralleluniverse.fibers.Suspendable
 import net.corda.core.flows.*

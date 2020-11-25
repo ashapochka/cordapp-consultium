@@ -1,4 +1,4 @@
-package com.template.webserver
+package com.consultium.webserver
 
 import net.corda.client.rpc.CordaRPCClient
 import net.corda.client.rpc.CordaRPCConnection

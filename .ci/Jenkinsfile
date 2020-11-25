@@ -1,6 +1,6 @@
 #!groovy
 /**
- * Jenkins pipeline to build the kotlin CorDapp template
+ * Jenkins pipeline to build the kotlin CorDapp consultium
  */
 
 /**

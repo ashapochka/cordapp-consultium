@@ -1,8 +1,7 @@
-package com.template
+package com.consultium
 
-import com.template.flows.Responder
+import com.consultium.flows.Responder
 import net.corda.core.identity.CordaX500Name
-import net.corda.testing.core.internal.ContractJarTestUtils.makeTestJar
 import net.corda.testing.node.MockNetwork
 import net.corda.testing.node.MockNetworkNotarySpec
 import net.corda.testing.node.MockNodeParameters
@@ -21,7 +20,7 @@ class FlowTests {
     @Before
     fun setup() {
         mockNetwork = MockNetwork(
-                listOf("com.template"),
+                listOf("com.consultium"),
                 notarySpecs = listOf(MockNetworkNotarySpec(CordaX500Name("Notary","London","GB")))
         )
         a = mockNetwork.createNode(MockNodeParameters())
