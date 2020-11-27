@@ -1,6 +1,5 @@
-package com.consultium
+package com.consultium.flows
 
-import com.consultium.flows.Responder
 import net.corda.core.identity.CordaX500Name
 import net.corda.testing.node.MockNetwork
 import net.corda.testing.node.MockNetworkNotarySpec
